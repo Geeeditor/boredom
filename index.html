@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Get an Activity</title>
+  </head>
+  <body>
+    <section class="mx-[30%] mt-5 w-auto space-y-[5%]">
+      <h4 class="text-center">BORED? LETS GET YOU SOMETHING TO DO</h4>
+      <main class="flex space-x-[40%]">
+        <div>
+          <p>Type of Activity</p>
+          <select name="dataType" id="dataType" class="border">
+            <option value="education">Select a Task</option>
+            <option value="education">Education</option>
+            <option value="recreational">Recreational</option>
+            <option value="social">Social</option>
+            <option value="diy">DIY</option>
+            <option value="charity">Charity</option>
+            <option value="cooking">Cooking</option>
+            <option value="relaxation">Relaxation</option>
+            <option value="music">Music</option>
+            <option value="busywork">Busy Work</option>
+          </select>
+        </div>
+
+        <form>
+          <p>Number of Participants</p>
+          <ul>
+            <li>
+              <label for="1"
+                ><input type="radio" value="1" name="number" />1</label
+              >
+            </li>
+            <li>
+              <label for="2"
+                ><input type="radio" value="2" name="number" />2</label
+              >
+            </li>
+            <li>
+              <label for="3"
+                ><input type="radio" value="3" name="number" />3</label
+              >
+            </li>
+            <li>
+              <label for="4"
+                ><input type="radio" value="4" name="number" />4</label
+              >
+            </li>
+          </ul>
+        <form>
+        </main>
+
+    
+        <button class="border-2 p-3  mx-[30%] hover:red">GENEREATE A TASK</button>
+      
+    </section>
+  </body>
+  <script src="app.js"></script>
+</html>
