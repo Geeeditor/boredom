@@ -1,4 +1,4 @@
-# BORED APPLICATION
+# TASK GENERATOR
 
 Are you bored? Pick an Activity and Choose a number of participant. Say no more to boredom 🙌
 
